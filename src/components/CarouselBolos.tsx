@@ -81,11 +81,11 @@ const CarouselBolos = () => {
                   transition={{ duration: 0.5, ease: 'easeInOut' }}
                   className="absolute inset-0"
                 >
-                  <div className="relative h-full group">
+                  <div className="relative h-full group flex items-center justify-center bg-secondary/50">
                     <img
                       src={cakes[currentIndex].image}
                       alt={cakes[currentIndex].title}
-                      className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                      className="max-w-full max-h-full object-contain transition-transform duration-700 group-hover:scale-105"
                       loading="lazy"
                     />
                     {/* Gradient Overlay */}

@@ -40,24 +40,6 @@ const Hero = () => {
         className="container-custom relative z-10 text-center px-4"
       >
         <div className="max-w-4xl mx-auto">
-          {/* Logo Animation */}
-          <motion.div
-            initial={{ scale: 0, rotate: -180 }}
-            animate={{ scale: 1, rotate: 0 }}
-            transition={{ 
-              type: 'spring', 
-              stiffness: 100, 
-              damping: 15,
-              delay: 0.2 
-            }}
-            className="mb-8"
-          >
-            <img
-              src={logo}
-              alt="Delícias da Tha"
-              className="w-40 h-40 md:w-52 md:h-52 mx-auto object-contain drop-shadow-2xl"
-            />
-          </motion.div>
 
           {/* Headline */}
           <motion.h1

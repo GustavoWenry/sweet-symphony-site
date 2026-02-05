@@ -16,6 +16,7 @@ const sweets = [
 ];
 
 const WHATSAPP_LINK = "https://wa.me/5515981283406?text=Olá,%20vim%20pelo%20site%20e%20gostaria%20de%20fazer%20um%20orçamento%20para%20um%20bolo%20ou%20doces";
+const WHATSAPP_VER_DOCES = "https://wa.me/5515981283406?text=Olá,%20vim%20pelo%20site%20e%20gostaria%20de%20ver%20todos%20os%20doces%20disponíveis";
 
 const CarouselDoces = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -205,7 +206,7 @@ const CarouselDoces = () => {
           className="text-center mt-12"
         >
           <motion.a
-            href={WHATSAPP_LINK}
+            href={WHATSAPP_VER_DOCES}
             target="_blank"
             rel="noopener noreferrer"
             whileHover={{ scale: 1.05 }}
