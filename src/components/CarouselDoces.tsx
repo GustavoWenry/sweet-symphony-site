@@ -4,13 +4,15 @@ import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 // Import sweet images
 import sweetBrigadeiros from '@/assets/sweets/sweet-brigadeiros.png';
-import sweetBombons from '@/assets/sweets/sweet-bombons.png';
 import sweetCherries from '@/assets/sweets/sweet-cherries.png';
+import SweetCupyfrut from '@/assets/sweets/sweet-cupyfrut.png'; 
+import sweetBombons from '@/assets/sweets/sweet-bombons.png';
 
 const sweets = [
   { id: 1, image: sweetBrigadeiros, title: 'Brigadeiros Gourmet', description: 'Clássico e irresistível' },
-  { id: 2, image: sweetBombons, title: 'Bombons Finos', description: 'Sofisticação e sabor' },
-  { id: 3, image: sweetCherries, title: 'Copinhos de Cereja', description: 'Elegância artesanal' },
+  { id: 2, image: sweetCherries, title: 'Copinhos de Cereja', description: 'Elegância artesanal' },
+  { id: 3, image: sweetBombons, title: 'Bombons Finos', description: 'Sofisticação e sabor' },
+  { id: 4, image: SweetCupyfrut, title: 'Copinhos da Delícia', description: 'Sabor tropical único' },
 ];
 
 const WHATSAPP_LINK = "https://wa.me/5515981283406";
