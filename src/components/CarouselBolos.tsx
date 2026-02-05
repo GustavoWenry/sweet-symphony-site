@@ -3,21 +3,21 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 // Import cake images
-import cakeSafari from '@/assets/cakes/cake-safari.png';
-import cakeGarden from '@/assets/cakes/cake-garden.png';
-import cakeLooney from '@/assets/cakes/cake-looney.png';
-import cakeChocolate from '@/assets/cakes/cake-chocolate.png';
-import cakeElegant from '@/assets/cakes/cake-elegant.png';
+import cakeFarm from '@/assets/cakes/cake-farm.png';
+import cakeRedvelvet from '@/assets/cakes/cake-redvelvet.png';
+import cakeButterfly from '@/assets/cakes/cake-butterfly.png';
+import cakeBirthday from '@/assets/cakes/cake-birthday.png';
+import cakeRosegold from '@/assets/cakes/cake-rosegold.png';
 
 const cakes = [
-  { id: 1, image: cakeSafari, title: 'Bolo Safari', description: 'Perfeito para festas temáticas' },
-  { id: 2, image: cakeGarden, title: 'Bolo Jardim Encantado', description: 'Delicado e cheio de detalhes' },
-  { id: 3, image: cakeLooney, title: 'Bolo Looney Tunes', description: 'Diversão garantida' },
-  { id: 4, image: cakeChocolate, title: 'Bolo Drip Chocolate', description: 'Para os amantes de chocolate' },
-  { id: 5, image: cakeElegant, title: 'Bolo Clássico Elegante', description: 'Sofisticação em cada detalhe' },
+  { id: 1, image: cakeFarm, title: 'Bolo Fazendinha', description: 'Perfeito para festas temáticas' },
+  { id: 2, image: cakeRedvelvet, title: 'Bolo Red Velvet', description: 'Clássico e irresistível' },
+  { id: 3, image: cakeButterfly, title: 'Bolo Borboletas', description: 'Delicado e encantador' },
+  { id: 4, image: cakeBirthday, title: 'Bolo Aniversário', description: 'Elegância em cada detalhe' },
+  { id: 5, image: cakeRosegold, title: 'Bolo Rosé Gold', description: 'Sofisticação e charme' },
 ];
 
-const WHATSAPP_LINK = "https://wa.me/5515981283406?text=Olá,%20vim%20pelo%20site%20e%20gostaria%20de%20fazer%20um%20orçamento%20para%20um%20bolo%20ou%20doces";
+const WHATSAPP_LINK = "https://wa.me/5515981283406";
 
 const CarouselBolos = () => {
   const [currentIndex, setCurrentIndex] = useState(0);

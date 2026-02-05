@@ -3,20 +3,18 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 // Import sweet images
-import sweetApples from '@/assets/sweets/sweet-apples.png';
-import sweetPhysalis from '@/assets/sweets/sweet-physalis.png';
-import sweetTruffles from '@/assets/sweets/sweet-truffles.png';
-import sweetGourmet from '@/assets/sweets/sweet-gourmet.png';
+import sweetBrigadeiros from '@/assets/sweets/sweet-brigadeiros.png';
+import sweetBombons from '@/assets/sweets/sweet-bombons.png';
+import sweetCherries from '@/assets/sweets/sweet-cherries.png';
 
 const sweets = [
-  { id: 1, image: sweetApples, title: 'Maçãs do Amor', description: 'Clássico irresistível' },
-  { id: 2, image: sweetPhysalis, title: 'Copinhos de Physalis', description: 'Sofisticação e sabor' },
-  { id: 3, image: sweetTruffles, title: 'Trufas Artesanais', description: 'Variedade de sabores' },
-  { id: 4, image: sweetGourmet, title: 'Doces Gourmet', description: 'Apresentação impecável' },
+  { id: 1, image: sweetBrigadeiros, title: 'Brigadeiros Gourmet', description: 'Clássico e irresistível' },
+  { id: 2, image: sweetBombons, title: 'Bombons Finos', description: 'Sofisticação e sabor' },
+  { id: 3, image: sweetCherries, title: 'Copinhos de Cereja', description: 'Elegância artesanal' },
 ];
 
-const WHATSAPP_LINK = "https://wa.me/5515981283406?text=Olá,%20vim%20pelo%20site%20e%20gostaria%20de%20fazer%20um%20orçamento%20para%20um%20bolo%20ou%20doces";
-const WHATSAPP_VER_DOCES = "https://wa.me/5515981283406?text=Olá,%20vim%20pelo%20site%20e%20gostaria%20de%20ver%20todos%20os%20doces%20disponíveis";
+const WHATSAPP_LINK = "https://wa.me/5515981283406";
+const WHATSAPP_VER_DOCES = "https://wa.me/5515981283406";
 
 const CarouselDoces = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
