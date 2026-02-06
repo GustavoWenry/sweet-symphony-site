@@ -137,9 +137,9 @@ const Footer = () => {
               © {currentYear} Delícias da Tha. Todos os direitos reservados.
             </p>
             <p>
-              Feito com{' '}
-              <span className="text-primary">♥</span>
-              {' '}para adoçar sua vida
+              Doces feito pela{' '}
+              <span className="text-primary">Tha,</span>
+              {' '}para adoçar sua vida.
             </p>
           </div>
         </div>
