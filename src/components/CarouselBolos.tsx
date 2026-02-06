@@ -8,6 +8,11 @@ import cakeRedvelvet from '@/assets/cakes/cake-redvelvet.png';
 import cakeButterfly from '@/assets/cakes/cake-butterfly.png';
 import cakeBirthday from '@/assets/cakes/cake-birthday.png';
 import cakeRosegold from '@/assets/cakes/cake-rosegold.png';
+import cakeOreo from '@/assets/cakes/cake-oreo.png';
+import cakeParabens from '@/assets/cakes/cake-parabens.png'; 
+import cakeLaco from '@/assets/cakes/cake-laco.png'; 
+import cakeAngel from '@/assets/cakes/cake-angel.png';
+import cakeMario from '@/assets/cakes/cake-mario.png';
 
 const cakes = [
   { id: 1, image: cakeFarm, title: 'Bolo Fazendinha', description: 'Perfeito para festas temáticas' },
@@ -15,6 +20,11 @@ const cakes = [
   { id: 3, image: cakeButterfly, title: 'Bolo Borboletas', description: 'Delicado e encantador' },
   { id: 4, image: cakeBirthday, title: 'Bolo Aniversário', description: 'Elegância em cada detalhe' },
   { id: 5, image: cakeRosegold, title: 'Bolo Rosé Gold', description: 'Sofisticação e charme' },
+  { id: 6, image: cakeOreo, title: 'Bolo Oreo', description: 'Sabor clássico com um toque especial' },
+  { id: 7, image: cakeParabens, title: 'Bolo Parabéns', description: 'Celebre com estilo e sabor' },
+  { id: 8, image: cakeLaco, title: 'Bolo Laço', description: 'Doce elegância para qualquer ocasião' },
+  { id: 9, image: cakeAngel, title: 'Bolo Anjo', description: 'Pureza e delicadeza em cada fatia' },
+  { id: 10, image: cakeMario, title: 'Bolo Mario Bros', description: 'Aventura e diversão em cada pedaço' },
 ];
 
 const WHATSAPP_LINK = "https://wa.me/5515981283406";
