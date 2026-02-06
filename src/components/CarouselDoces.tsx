@@ -7,12 +7,21 @@ import sweetBrigadeiros from '@/assets/sweets/sweet-brigadeiros.png';
 import sweetCherries from '@/assets/sweets/sweet-cherries.png';
 import SweetCupyfrut from '@/assets/sweets/sweet-cupyfrut.png'; 
 import sweetBombons from '@/assets/sweets/sweet-bombons.png';
+import sweetCamafeunozes from '@/assets/sweets/sweet-camafeunozes.png'; 
+import sweetMacadoamor from '@/assets/sweets/sweet-macadoamor.png';
+import sweetBalabaiana from '@/assets/sweets/sweet-balabaiana.png';
+import sweetBeijinho from '@/assets/sweets/sweet-beijinho.png';
 
 const sweets = [
   { id: 1, image: sweetBrigadeiros, title: 'Brigadeiros Gourmet', description: 'Clássico e irresistível' },
   { id: 2, image: sweetCherries, title: 'Cestinha de Cereja', description: 'Elegância artesanal' },
   { id: 3, image: sweetBombons, title: 'Bombons Finos', description: 'Sofisticação e sabor' },
   { id: 4, image: SweetCupyfrut, title: 'Copinho Phydalis', description: 'Sabor tropical e único' },
+  { id: 5, image: sweetCamafeunozes, title: 'Camafeu de Nozes', description: 'Tradição e sabor em cada mordida' },
+  { id: 6, image: sweetMacadoamor, title: 'Maçã do Amor', description: 'Doce clássico para todas as idades' },
+  { id: 7, image: sweetBalabaiana, title: 'Bala Baiana', description: 'Explosão de sabor nordestino' },
+  { id: 8, image: sweetBeijinho, title: 'Beijinho de Coco', description: 'Doce delicado e saboroso' },
+
 ];
 
 const WHATSAPP_LINK = "https://wa.me/5515981283406";
