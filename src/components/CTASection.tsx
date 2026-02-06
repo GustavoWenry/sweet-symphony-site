@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 
-const WHATSAPP_LINK = "https://wa.me/5515981283406";
+const WHATSAPP_LINK = "https://wa.me/5515981283406?text=Olá,%20vim%20pelo%20site%20e%20gostaria%20de%20fazer%20um%20orçamento%20para%20uma%20celebração%20.";
 
 const CTASection = () => {
   return (
