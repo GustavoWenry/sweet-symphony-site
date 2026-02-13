@@ -11,6 +11,10 @@ import sweetCamafeunozes from '@/assets/sweets/sweet-camafeunozes.png';
 import sweetMacadoamor from '@/assets/sweets/sweet-macadoamor.png';
 import sweetBalabaiana from '@/assets/sweets/sweet-balabaiana.png';
 import sweetBeijinho from '@/assets/sweets/sweet-beijinho.png';
+import sweetPlaca from '@/assets/sweets/sweet-placa.png';
+import sweetPirulito1 from '@/assets/sweets/sweet-pirulito1.png';
+import sweetPirulito2 from '@/assets/sweets/sweet-pirulito2.png';
+import { Description } from '@radix-ui/react-dialog';
 
 const sweets = [
   { id: 1, image: sweetBrigadeiros, title: 'Brigadeiros Gourmet', description: 'Clássico e irresistível' },
@@ -21,6 +25,9 @@ const sweets = [
   { id: 6, image: sweetMacadoamor, title: 'Maçã do Amor', description: 'Doce clássico para todas as idades' },
   { id: 7, image: sweetBalabaiana, title: 'Bala Baiana', description: 'Explosão de sabor nordestino' },
   { id: 8, image: sweetBeijinho, title: 'Beijinho de Coco', description: 'Doce delicado e saboroso' },
+  { id: 9, image: sweetPlaca, title: 'Plaquinha Comestivel Personalizada', description: 'Plaquinha de mesa personalizada' },
+  { id: 10, image: sweetPirulito1, tittle: 'Decoração de Pirulito Personalizado', description: 'Pirulito Comestivel Personalizado' },
+  { id: 11, image: sweetPirulito2, title: 'Pirulito de Mesa Personalizado', description: 'Pirulito Comestivel Personalizado'},
 
 ];
 

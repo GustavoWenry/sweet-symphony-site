@@ -13,6 +13,8 @@ import cakeParabens from '@/assets/cakes/cake-parabens.png';
 import cakeLaco from '@/assets/cakes/cake-laco.png'; 
 import cakeAngel from '@/assets/cakes/cake-angel.png';
 import cakeMario from '@/assets/cakes/cake-mario.png';
+import cakePersonalizado from '@/assets/cakes/cake-personalizado.png';
+import { title } from 'process';
 
 const cakes = [
   { id: 1, image: cakeFarm, title: 'Bolo Fazendinha', description: 'Perfeito para festas temáticas' },
@@ -25,6 +27,7 @@ const cakes = [
   { id: 8, image: cakeLaco, title: 'Bolo Laço', description: 'Doce elegância para qualquer ocasião' },
   { id: 9, image: cakeAngel, title: 'Bolo Anjo', description: 'Pureza e delicadeza em cada fatia' },
   { id: 10, image: cakeMario, title: 'Bolo Mario Bros', description: 'Aventura e diversão em cada pedaço' },
+  { id: 11, image: cakePersonalizado, title: 'Bolo Personalizado', description: 'Personalização escolhida pelo cliente' },
 ];
 
 const WHATSAPP_LINK = "https://wa.me/5515981283406?text=Olá,%20vim%20pelo%20site%20e%20gostaria%20de%20fazer%20um%20orçamento%20para%20uma%20celebração%20.";
